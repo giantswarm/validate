@@ -1,7 +1,7 @@
 package simple
 
 import (
-	"github.com/daswasser/validate"
+	"github.com/giantswarm/validate"
 	"testing"
 )
 

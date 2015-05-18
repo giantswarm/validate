@@ -3,7 +3,7 @@ package simple
 
 import (
 	"errors"
-	"github.com/daswasser/validate"
+	"github.com/giantswarm/validate"
 	"unicode"
 	"unicode/utf8"
 )

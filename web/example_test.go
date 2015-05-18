@@ -2,8 +2,8 @@ package web_test
 
 import (
 	"fmt"
-	"github.com/daswasser/validate"
-	"github.com/daswasser/validate/web"
+	"github.com/giantswarm/validate"
+	"github.com/giantswarm/validate/web"
 )
 
 func ExampleDomain() {
