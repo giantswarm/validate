@@ -5,8 +5,8 @@ package web
 import (
 	"bytes"
 	"errors"
+	"github.com/giantswarm/go-tld"
 	"github.com/giantswarm/validate"
-	"github.com/inhies/go-tld"
 	"unicode"
 	"unicode/utf8"
 )
@@ -209,7 +209,7 @@ func (d *Domain) Validate(v validate.Validator) validate.Error {
 }
 
 // Update the included list of TLDs from the given URL.
-// Uses github.com/inhies/go-tld
+// Uses github.com/giantswarm/go-tld
 func UpdateTLDs(url string) (err error) {
 	return tld.Update(url)
 }
